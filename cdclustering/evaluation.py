@@ -70,7 +70,7 @@ def modularity_with_threshold(data, labels, k):
     return modularity_score
 
 def create_adjacency_matrix_using_hamming(df):
-    distances = pdist(df.values, metric='jaccard')
+    distances = pdist(df.values, metric='hamming')
     distance_matrix = squareform(distances)
     similarity_matrix = 1 - distance_matrix
     return similarity_matrix
