@@ -61,7 +61,7 @@ pip install .
 Alternatively, you can install the dependencies directly from requirements.txt:
 1. **Clone the repository:**
 ```bash
-git clone [<repository-url>](https://github.com/maxolve/CDClustering.git)
+git clone https://github.com/maxolve/CDClustering.git
 cd CDClustering
 ```
 2. Install the required packages:
