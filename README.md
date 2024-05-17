@@ -80,7 +80,3 @@ This script will:
 - Fetch the UCI Zoo dataset using ucimlrepo.
 - Run the CDClustering algorithm to cluster the data.
 - Calculate and print the modularity score of the clustering.
-
-modularity_score = calculate_modularity(data, labels)
-print(f"Modularity Score: {modularity_score}")
-```
